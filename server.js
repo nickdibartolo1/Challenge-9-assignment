@@ -3,7 +3,13 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
-app.listen(PORT, () => {
-    console.log(`PORT: ${PORT} is being listened to by the server`);
-  });
+app.use(express.static('public'));
+
+
+
+app.listen(PORT, () => 
+    console.log(`PORT: ${PORT} is being listened to by the server`)
+  );
