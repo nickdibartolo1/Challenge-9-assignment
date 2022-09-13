@@ -1,11 +1,10 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const notesRouter = require('./notes')
+const notesRouter = require('./notes');
 
 
-
-app.use('/notes', notesRouter)
+app.use('/notes', notesRouter);
 
 
 app.get('/notes', (req, res) => {
@@ -22,4 +21,4 @@ app.get('*', (req, res) => {
 
 module.exports = app;
 
-//   console.log(app)
+  console.log(app)

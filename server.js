@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();
+const app = express()
 const PORT = process.env.PORT || 3000;
 // user router
 // const uRouter = require("./assets/index")
@@ -12,9 +12,8 @@ app.use(express.static('public'));
 
 require('./routes/mainRoute')(app);
 
-
-
-
 app.listen(PORT, () => 
     console.log(`PORT: ${PORT} is being listened to by the server`)
   );
+
+  console.log(app);
