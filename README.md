@@ -21,9 +21,9 @@ This project was created for the intentions of one to be able take and save note
   - [Contributing](#contributing)
 ## Technology 
 Technology used:
-Javascript
-Express.js
-Node.js
+Javascript,
+Express.js,
+Node.js,
 npm installs
 ## Contributing
 Nick DiBartolo
