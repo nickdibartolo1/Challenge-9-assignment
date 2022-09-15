@@ -29,7 +29,6 @@ app.post('', (req, res) => {
       stringData = JSON.stringify(noteData);
 
       fs.writeFile('./db/db.json', stringData, (err, data) => {
-        if (err) throw err;
       });
     });
     res.send('Successfully created note! ');
