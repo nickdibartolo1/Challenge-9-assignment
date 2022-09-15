@@ -10,7 +10,8 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 // app.use('/api', uRouter);
 
-require('./routes/mainRoute')(app);
+require('./routes/mainRoute');
+require('./routes/notes');
 
 app.listen(PORT, () => 
     console.log(`PORT: ${PORT} is being listened to by the server`)
