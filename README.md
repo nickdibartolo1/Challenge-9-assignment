@@ -17,12 +17,13 @@ This project was created for the intentions of one to be able take and save note
   - [User Story](#user-story)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
+  - [Technology](#Technology)
   - [Contributing](#contributing)
-## Installation
-Activating the node in your terminal and answering the questions provided.
-## Usage
-The use case is for any project that needs a ReadMe document.
+## Technology 
+Technology used:
+Javascript,
+Express.js,
+Node.js,
+npm installs
 ## Contributing
 Nick DiBartolo
